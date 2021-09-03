@@ -1,0 +1,117 @@
+#route {
+    background-color: #2541B2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#card {
+    position: relative;
+}
+
+.title {
+    font-size: 15rem;
+    color: white;
+    position: absolute;
+    top: 10%;
+    transition: all .5s;
+}
+
+.teamName {
+    font-size: 8rem;
+    position: absolute;
+    bottom: 20%;
+    transition: all .5s;
+}
+
+.project {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#card:hover .teamName {
+    bottom: 60%;
+    left: 5%;
+    font-size: 4rem;
+}
+
+#card:hover .title {
+    top: -22%;
+    transform: rotate(-10deg);
+}
+
+.ourProject {
+    position: absolute;
+    bottom: -35%;
+    transition: all .5s;
+}
+
+#card:hover .ourProject {
+    bottom: 10%;
+}
+
+.teamMember1 {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+
+
+/* .teamMember1 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+} */
+
+.teamMember2 {
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    color: #ffc107;
+}
+
+.teamMember3 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: #ffc107;
+}
+
+
+/* .teamMember3 {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+} */
+
+.teamMember4 {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    color: #ffc107;
+}
+
+.teamMember5 {
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    color: #ffc107;
+}
+
+.teamMembers {
+    color: white;
+    transition: all 1s;
+    position: relative;
+    left: 110%;
+    height: 60vh;
+}
+
+
+/* #card:hover .teamMembers {
+    left: 0%;
+} */
